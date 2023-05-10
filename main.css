@@ -1,0 +1,206 @@
+body {
+    padding: 0px;
+    margin: 10px;
+    font-family: "SF Mono Regular", Icons;
+    color: #ff0099;
+
+    line-height: 1.2;
+    /*background-image: "img/gradient.jpg";*/
+    background: #C7B6DC;
+    border-radius: 50%;
+}
+
+/* Intro To Oluschi */
+.description p{
+    position: absolute;
+    width: 55%;
+    padding-top: .75vh;
+    /*font-size: 1.35rem;*/
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 2vw;
+}
+
+
+.description a:hover {
+    color: white;
+}
+
+.social-icons{
+    padding-top: 3.5vh;
+    margin-left: 90vw;
+    position: absolute;
+}
+
+.social-icons img {
+
+    width: 25%;
+}
+
+ a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 4px #ff0099;
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff0099; 
+  border-radius: 5px;
+}
+
+.nav a{
+    position: relative;
+    margin-left: 2vw;
+    font-size: 1.35rem;
+    top: 90vh;
+
+    bottom: 0;
+}
+
+.nav a:hover{
+    color: white;
+}
+
+
+/* Main Page Content*/
+
+/* Drawing Canvas */
+#canvas{
+    position: fixed;
+    margin-top: -5px;
+    left: 0px;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
+}
+
+.emoji {
+  position:absolute;
+  height: auto;
+  width: 
+}
+
+/*IMAGE TIMER*/
+.hidden {
+  display: none;
+}
+
+#image-container img{
+    position: absolute;
+    z-index: -5;
+}
+
+  .img1 img{
+    left: 66vw;
+    top: 10vh;
+    transform: rotate(1deg);
+
+
+}
+
+.img2 img{
+    top: 13vh;
+    float: right; 
+    right: 20vw;
+    transform: rotate( 2.75deg);
+
+}
+
+.img3 img {
+    left: 1vw;
+    top: 50vh;
+}
+
+.img4 img{
+    left: 30vw;
+    top: 40vh;
+
+}
+
+.img5 img{
+    left: 10vw;
+    top: 45vh;
+
+}
+
+.img6 img{
+    left: 1vw;
+    top: 40vh;
+
+}
+
+.img7 img{
+    left: 50vw;
+    top: 60vh;
+}
+
+.img8 img{
+    left: 61vw;
+    top: 22vh;
+
+}
+
+.img9 img{
+    left: 50vw;
+    top: 60vh;
+}
+
+.img10 img{
+    left: 25vw;
+    top: 40vh;
+}
+
+
+/* Bottom Text */
+.bottomtext p{
+    position: absolute;
+    text-align: right;
+
+    font-size: 1.35rem;
+    top: 48.5vw;
+    left: 76vw;
+}
+
+  /* For mobile phones: */
+@media only screen and (max-width: 600px) {
+  .img1 img{
+    width: 45%;
+    position: absolute;
+    margin-top: 13vh;
+    
+   
+    margin-left: 30vh;
+    z-index: -1;
+  }
+
+  .description p{
+     padding-left: .5rem;
+     font-size: 1.5rem;
+     text-align: left;
+  }
+ 
+ .social-icons img{
+    width: 100%;
+ }
+
+
+ .bottomtext p{
+    display: none
+ }
+
+
+
+  }
+
